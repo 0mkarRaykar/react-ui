@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+body {
+  font-family: "Inter", sans-serif; /* default body text */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
